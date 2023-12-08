@@ -1,5 +1,5 @@
 const { SlashCommandBuilder, EmbedBuilder } = require("discord.js");
-const hero = require("cod189bot/contents/heroes.json");
+const hero = require("../../../contents/heroes.json");
 
 module.exports = {
     cooldown: 5,
