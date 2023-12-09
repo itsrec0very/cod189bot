@@ -5,12 +5,12 @@ module.exports = {
     cooldown: 5,
     data: new SlashCommandBuilder()
         .setName("hero")
-        .setDescription("Get information about a hero.")
+        .setDescription("Получить информацию о герое.")
         .setDMPermission(false)
         .addStringOption(option =>
             option
                 .setName("name")
-                .setDescription("Name of the behemoth")
+                .setDescription("Название героя")
                 .setRequired(true)
                 .setAutocomplete(true)
         ),
@@ -31,13 +31,13 @@ module.exports = {
             .setColor("#f59e0b")
             .setTitle(userSelection)
             .setFields(
-                { name: "Rarity:", value: selectedHero.rarity, inline: false },
-                { name: "Role:", value: selectedHero.role, inline: false },
-                { name: "Buffs:", value: selectedHero.buffs, inline: false },
-                { name: "Units:", value: selectedHero.units, inline: false },
-                { name: "Tier:", value: selectedHero.tier, inline: false },
-                { name: "Best Pairings:", value: selectedHero.pairings, inline: false },
-                { name: "Talent Tree:", value: selectedHero.talent, inline: false }
+                { name: "Редкость:", value: selectedHero.rarity, inline: false },
+                { name: "Роль:", value: selectedHero.role, inline: false },
+                { name: "Бафы:", value: selectedHero.buffs, inline: false },
+                { name: "Предназначение:", value: selectedHero.units, inline: false },
+                { name: "Уровень:", value: selectedHero.tier, inline: false },
+                { name: "Лучшая связка:", value: selectedHero.pairings, inline: false },
+                { name: "Гайд:", value: selectedHero.talent, inline: false }
             );
 
         if (selectedHero.image !== "") {
