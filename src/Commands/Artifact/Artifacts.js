@@ -4,8 +4,8 @@ const artifact = require("../../../contents/artifacts.json");
 module.exports = {
     cooldown: 5,
     data: new SlashCommandBuilder()
-        .setName("artifacts")
-        .setDescription("Get a list of all available artifacts")
+        .setName("артефакты")
+        .setDescription("Список всех доступных артефактов")
         .setDMPermission(false),
 
     async execute(interaction) {
@@ -16,7 +16,7 @@ module.exports = {
 
         const embed = new EmbedBuilder()
             .setColor("#f59e0b")
-            .setTitle("Heres a list of all available artifacts!")
+            .setTitle("Список всех доступных артефактов!")
             .setDescription(artifacts)
 
         await interaction.reply({ embeds: [embed], ephemeral: true });

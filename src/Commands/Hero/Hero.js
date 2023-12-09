@@ -4,12 +4,12 @@ const heros = require("../../../contents/heroes.json");
 module.exports = {
     cooldown: 5,
     data: new SlashCommandBuilder()
-        .setName("hero")
+        .setName("герой")
         .setDescription("Получить информацию о герое.")
         .setDMPermission(false)
         .addStringOption(option =>
             option
-                .setName("name")
+                .setName("название")
                 .setDescription("Название героя")
                 .setRequired(true)
                 .setAutocomplete(true)

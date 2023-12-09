@@ -4,13 +4,13 @@ const artifacts = require("../../../contents/artifacts.json");
 module.exports = {
     cooldown: 5,
     data: new SlashCommandBuilder()
-        .setName("artifact")
-        .setDescription("Get information about an artifact")
+        .setName("артефакт")
+        .setDescription("Получить информацию об артефакте")
         .setDMPermission(false)
         .addStringOption(option =>
             option
-                .setName("name")
-                .setDescription("Name of the artifact")
+                .setName("название")
+                .setDescription("Название артефакта")
                 .setRequired(true)
                 .setAutocomplete(true)
         ),
@@ -31,11 +31,11 @@ module.exports = {
             .setColor("#f59e0b")
             .setTitle(userSelection)
             .setFields(
-                { name: "Rarity:", value: selectedArtifact.rarity, inline: false },
-                { name: "Role:", value: selectedArtifact.role, inline: false },
-                { name: "Buffs:", value: selectedArtifact.buffs, inline: false },
-                { name: "Units:", value: selectedArtifact.units, inline: false },
-                { name: "Tier:", value: selectedArtifact.tier, inline: false }
+                { name: "Редкость:", value: selectedArtifact.rarity, inline: false },
+                { name: "Роль:", value: selectedArtifact.role, inline: false },
+                { name: "Бафы:", value: selectedArtifact.buffs, inline: false },
+                { name: "Предназначение:", value: selectedArtifact.units, inline: false },
+                { name: "Уровень:", value: selectedArtifact.tier, inline: false }
             );
 
         if (selectedArtifact.image !== "") {

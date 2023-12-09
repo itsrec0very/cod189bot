@@ -66,14 +66,14 @@ module.exports = {
                 if (interaction.replied || interaction.deferred) {
 
                     embed
-                        .setTitle(`There was an error while executing this command`)
+                        .setTitle(`Произошла ошибка при попытке выполнении команды`)
 
                     await interaction.followUp({ embeds: [embed], ephemeral: true });
                 } else {
 
                     const embed = new EmbedBuilder()
                         .setColor('Red')
-                        .setTitle(`There was an error while executing this command`)
+                        .setTitle(`Произошла ошибка при выполнении команды`)
 
                     await interaction.reply({ embeds: [embed], ephemeral: true });
                 }

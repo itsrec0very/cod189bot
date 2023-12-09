@@ -4,8 +4,8 @@ const behemoth = require("../../../contents/behemoths.json");
 module.exports = {
     cooldown: 5,
     data: new SlashCommandBuilder()
-        .setName("behemoths")
-        .setDescription("Get a list of all available behemoths.")
+        .setName("исполины")
+        .setDescription("Список всех доступных исполин.")
         .setDMPermission(false),
 
     async execute(interaction) {
@@ -16,7 +16,7 @@ module.exports = {
 
         const embed = new EmbedBuilder()
             .setColor("#f59e0b")
-            .setTitle("Heres a list of all available behemoths!")
+            .setTitle("Список всех доступных исполин!")
             .setDescription(behemoths)
 
         await interaction.reply({ embeds: [embed], ephemeral: true });
