@@ -9,7 +9,7 @@
       "pairings": "Эмрис/Бакши",
       "talent": "https://callofdragonsguides.com/alistair-talent-tree-build-and-guide/"
     },
-    "Alwyn": {
+    "Алуин": {
       "image": "Alwyn.png",
       "rarity": "Эпический",
       "role": "Контроль",
@@ -19,7 +19,7 @@
       "pairings": "Уалдир/Лилия",
       "talent": "https://callofdragonsguides.com/alwyn-talent-tree-build-and-guide/"
     },
-    "Atheus": {
+    "Атей": {
       "image": "Atheus.png",
       "rarity": "Эпический",
       "role": "Мобил.",
@@ -29,7 +29,7 @@
       "pairings": "Тея/Уалдир",
       "talent": "https://callofdragonsguides.com/atheus-talent-tree-build-guide/"
     },
-    "Bakshi": {
+    "Бакши": {
       "image": "Bakshi.png",
       "rarity": "Легендарный",
       "role": "Навыки",
@@ -39,7 +39,7 @@
       "pairings": "Эмрис/Алистар",
       "talent": "https://callofdragonsguides.com/bakshi-talent-tree-build-guide/"
     },
-    "Chakcha": {
+    "Чакча": {
       "image": "Chakcha.png",
       "rarity": "Элитный",
       "role": "Навыки",
@@ -49,7 +49,7 @@
       "pairings": "Неизвестно",
       "talent": "https://callofdragonsguides.com/chakcha-talent-tree-build-and-guide/"
     },
-    "Eliana": {
+    "Элиана": {
       "image": "Eliana.png",
       "rarity": "Эпический",
       "role": "Поддержка",
@@ -59,7 +59,7 @@
       "pairings": "Неизвестно",
       "talent": "https://callofdragonsguides.com/eliana-talent-tree-build-and-guide/"
     },
-    "Emrys": {
+    "Эмрис": {
       "image": "Emrys.png",
       "rarity": "Легендарный",
       "role": "Мобил.",
@@ -69,7 +69,7 @@
       "pairings": "Алистар/Бакши",
       "talent": "https://callofdragonsguides.com/emrys-talent-tree-build-and-guide/"
     },
-    "Gwanwyn": {
+    "Гуануин": {
       "image": "Gwanwyn.png",
       "rarity": "Эпический",
       "role": "Точность",
@@ -79,7 +79,7 @@
       "pairings": "Крегг/Нико",
       "talent": "https://callofdragonsguides.com/gwanwyn-talent-tree-build-guide/"
     },
-    "Hosk": {
+    "Хоск": {
       "image": "Hosk.png",
       "rarity": "Легендарный",
       "role": "Точность",
@@ -89,7 +89,7 @@
       "pairings": "Нико/Киннара",
       "talent": "https://callofdragonsguides.com/hosk-talent-tree-build-and-guide/"
     },
-    "Indis": {
+    "Индис": {
       "image": "Indis.png",
       "rarity": "Легендарный",
       "role": "Поддержка",
@@ -99,7 +99,7 @@
       "pairings": "N/A",
       "talent": "https://callofdragonsguides.com/indis-talent-tree-build-and-guide/"
     },
-    "Kella": {
+    "Келла": {
       "image": "Kella.png",
       "rarity": "Элитный",
       "role": "Поддержка",
@@ -109,7 +109,7 @@
       "pairings": "Неизвестно",
       "talent": "https://callofdragonsguides.com/kella-talent-tree-build-and-guide/"
     },
-    "Kinnara": {
+    "Киннара": {
       "image": "Kinnara.png",
       "rarity": "Легендарный",
       "role": "Контроль",
@@ -119,7 +119,7 @@
       "pairings": "Нико/Гуануин",
       "talent": "https://callofdragonsguides.com/kinnara-talent-tree-build-and-guide/"
     },
-    "Kregg": {
+    "Крегг": {
       "image": "Kregg.png",
       "rarity": "Эпический",
       "role": "Мобил.",
@@ -129,7 +129,7 @@
       "pairings": "Гуануин/Нико",
       "talent": "https://callofdragonsguides.com/kregg-talent-tree-build-and-guide/"
     },
-    "Liliya": {
+    "Лилия": {
       "image": "Liliya.png",
       "rarity": "Легендарный",
       "role": "Навыки",
@@ -139,7 +139,7 @@
       "pairings": "Уалдир/Велин",
       "talent": "https://callofdragonsguides.com/liliya-talent-tree-build-and-guide/"
     },
-    "Madeline": {
+    "Маделин": {
       "image": "Madeline.png",
       "rarity": "Легендарный",
       "role": "Защита",
@@ -149,7 +149,7 @@
       "pairings": "Ника/Хоск",
       "talent": "https://callofdragonsguides.com/madeline-talent-tree-build-and-guide/"
     },
-    "Nico": {
+    "Нико": {
       "image": "Nico.png",
       "rarity": "Легендарный",
       "role": "Точность",
@@ -159,7 +159,7 @@
       "pairings": "Гуануин/Хоск",
       "talent": "https://callofdragonsguides.com/nico-talent-tree-build-guide/"
     },
-    "Nika": {
+    "Ника": {
       "image": "Nika.png",
       "rarity": "Легендарный",
       "role": "Навыки",
@@ -169,7 +169,7 @@
       "pairings": "Маделин/Хоск",
       "talent": "https://callofdragonsguides.com/nika-talent-tree-build-and-guide/"
     },
-    "Ordo": {
+    "Ордо": {
       "image": "Ordo.png",
       "rarity": "Элитный",
       "role": "Защита",
@@ -179,7 +179,7 @@
       "pairings": "Неизвестно",
       "talent": "https://callofdragonsguides.com/ordo-talent-tree-build-and-guide/"
     },
-    "Theia": {
+    "Тея": {
       "image": "Theia.png",
       "rarity": "Легендарный",
       "role": "Поддержка",
@@ -189,7 +189,7 @@
       "pairings": "Атей/Крегг",
       "talent": "https://callofdragonsguides.com/theia-talent-tree-build-and-guide/"
     },
-    "Velyn": {
+    "Велин": {
       "image": "Velyn.png",
       "rarity": "Легендарный",
       "role": "Контроль",
@@ -199,7 +199,7 @@
       "pairings": "Лилия/Уалдир",
       "talent": "https://callofdragonsguides.com/velyn-talent-tree-build-guide/"
     },
-    "Waldyr": {
+    "Уалдир": {
       "image": "Waldyr.png",
       "rarity": "Эпический",
       "role": "Навыки",

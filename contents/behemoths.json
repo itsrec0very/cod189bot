@@ -1,54 +1,54 @@
 {
-    "Giant Bear": {
+    "Гигантский урсус": {
       "image": "Bear.png",
       "level": "1",
       "zone": "Zone 1",
       "health": "300,000",
       "tutorial": "https://www.youtube.com/watch?v=bDUTisht5p0"
     },
-    "Giant": {
+    "Гигант": {
         "image": "Giant.png",
         "level": "2",
         "zone": "Zone 1",
-        "health": "300,000",
+        "health": "500,000",
         "tutorial": "https://www.youtube.com/watch?v=EfjwEXxdfJI"
     },
-    "Thunder Roc": {
+    "Грозовой Рух": {
         "image": "Roc.png",
         "level": "3",
         "zone": "Zone 1",
         "health": "1,000,000",
         "tutorial": "https://www.youtube.com/watch?v=mEYf6MwBElg"
     },
-    "Hydra": {
+    "Гидра": {
         "image": "Hydra.png",
         "level": "4",
         "zone": "Zone 1 and 2",
         "health": "1,500,000",
         "tutorial": "https://www.youtube.com/watch?v=gllTPoNL5hg"
     },
-    "Direbear": {
+    "Лихоурсус": {
         "image": "Direbear.png",
         "level": "5",
         "zone": "Zone 2",
         "health": "2,500,000",
         "tutorial": "https://www.youtube.com/watch?v=1EYRfUPl0ZA"
     },
-    "Necrogiant": {
+    "Восставший гигант": {
         "image": "Necrogiant.png",
         "level": "6",
         "zone": "Zone 2 and 3",
         "health": "2,500,000",
         "tutorial": "https://www.youtube.com/watch?v=AsxTDsTsa74"
     },
-    "Magma Daemon": {
+    "Лавовый демон": {
         "image": "Magma.png",
         "level": "7",
         "zone": "Zone 1,2,and 3",
-        "health": "2,800,000",
+        "health": "2,400,000",
         "tutorial": "https://www.youtube.com/watch?v=LeitdHYoL8E"
     },
-    "Flame Dragon": {
+    "Огненный дракон": {
         "image": "Dragon.png",
         "level": "8",
         "zone": "Zone 3",
