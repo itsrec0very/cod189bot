@@ -23,7 +23,7 @@ module.exports = {
     },
 
     async execute(interaction) {
-        const userSelection = interaction.options.getString("name");
+        const userSelection = interaction.options.getString("название");
 
         const selectedHero = heros[userSelection];
 
@@ -32,9 +32,9 @@ module.exports = {
             .setTitle(userSelection)
             .setFields(
                 { name: "Редкость:", value: selectedHero.rarity, inline: false },
-                { name: "Роль:", value: selectedHero.role, inline: false },
+                { name: "Предназначение:", value: selectedHero.role, inline: false },
                 { name: "Бафы:", value: selectedHero.buffs, inline: false },
-                { name: "Предназначение:", value: selectedHero.units, inline: false },
+                { name: "Роль:", value: selectedHero.units, inline: false },
                 { name: "Уровень:", value: selectedHero.tier, inline: false },
                 { name: "Лучшая связка:", value: selectedHero.pairings, inline: false },
                 { name: "Гайд:", value: selectedHero.talent, inline: false }
