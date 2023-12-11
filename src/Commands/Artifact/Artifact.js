@@ -13,7 +13,7 @@ module.exports = {
     .setDMPermission(false)
     .addStringOption((option) =>
       option
-        .setName("name")
+        .setName("название")
         .setDescription("Название артефакта")
         .setRequired(true)
         .setAutocomplete(true),
@@ -31,7 +31,7 @@ module.exports = {
   },
 
   async execute(interaction) {
-    const userSelection = interaction.options.getString("name");
+    const userSelection = interaction.options.getString("название");
 
     const selectedArtifact = artifacts[userSelection];
 
